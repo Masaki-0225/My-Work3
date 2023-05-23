@@ -8,11 +8,8 @@ public class Main {
         names.add("田中");
         names.add("鈴木");
         names.add("平川");
-//        System.out.println(names.get(0));
-//        System.out.println(names.get(2));
-//        System.out.println(names.get(1));
-        int i = 0;
-        for (; i < 5; i++) {
+
+        for (int i = 0; i < 5; i++) {
             try {
                 if (i < 0 || 2 < i) {
                     throw new ArrayIndexOutOfBoundsException();
